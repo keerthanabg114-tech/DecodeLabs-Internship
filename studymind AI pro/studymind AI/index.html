@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>StudyMind AI</title>
+    <link rel="stylesheet" href="style.css"> 
+</head>
+<body>
+    <header> 
+        <h1>StudyMind AI</h1>
+
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#features">Features</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+        <section class="ai" id="home">
+
+    <div class="ai-text">
+        <h2>  Learn Smarter with AI</h2>
+
+        <p>
+            StudyMind AI helps students learn faster, organize notes, and prepare confidently for exams.
+        </p>
+
+        <button id="startBtn">Get Started</button>
+        <button id="learnBtn">Learn More</button>
+        <button id="darkBtn">🌙 Dark Mode</button>
+        <p id="message"></p>
+        <input id="nameInput" type="text" placeholder="Enter your name">
+
+        <button id="welcomeBtn">Start Learning</button>
+
+        <p id="welcomeMessage"></p>
+    </div>
+
+    <div class="ai-image">
+        <img src="images/ai.jpg" alt="AI Study">
+    </div>
+    </section>
+    <section class="features" id="features">
+
+    <h2>Our Features</h2>
+
+    <div class="feature-container">
+
+        <div class="feature-card">
+            <h3>📚 AI Notes</h3>
+            <p>Create AI notes instantly.</p>
+        </div>
+
+        <div class="feature-card">
+            <h3>📝 Quiz Generator</h3>
+            <p>Generate AI quizzes.</p>
+        </div>
+
+        <div class="feature-card">
+            <h3>🌙 Dark Mode</h3>
+<p>Switch between light and dark themes.</p>
+        </div>
+
+    </div>
+    <div class="ai-notes">
+
+    <h2>AI Notes Generator</h2>
+
+    <input id="topicInput" 
+           type="text" 
+           placeholder="Enter topic">
+
+    <button id="generateBtn">
+        Generate Notes
+    </button>
+
+    <p id="notesOutput"></p>
+
+</div>
+<div class="quiz-generator">
+
+    <h2>AI Quiz Generator</h2>
+
+    <input id="quizTopic" 
+           type="text" 
+           placeholder="Enter quiz topic">
+
+    <button id="quizBtn">
+        Generate Quiz
+    </button>
+
+  <div id="quizOutput"></div>
+  <p id="scoreOutput"></p>
+
+</div>
+
+</section>
+
+<section class="contact" id="contact">
+
+    <h2>Contact Us</h2>
+
+    <p>Have questions? We'd love to hear from you.</p>
+
+    <form>
+
+        <input type="text" placeholder="Your Name">
+
+        <input type="email" placeholder="Your Email">
+
+        <textarea placeholder="Your Message"></textarea>
+
+        <button>Send Message</button>
+
+    </form>
+
+</section>
+<footer>
+
+    <p>© 2026 StudyMind AI. All Rights Reserved.</p>
+
+</footer>
+<script src="script.js"></script>
+</body>
+</html>
